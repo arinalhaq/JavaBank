@@ -1,11 +1,11 @@
 package javabank;
 
-public class Account implements InterfaceBankAccount {
+public class Account extends AbstractBankAccount {
 
     // class variables
-    String accountName;
-    int accountNum;
-    int balance;
+    protected String accountName;
+    protected int accountNum;
+    protected int balance;
 
     //default constructor for Account
     Account() {
